@@ -20,6 +20,7 @@ body {
     font-size: 35px;
     margin-bottom: 5px;
     padding: 5px;
+    text-align: center;
 }
 
 #main h1 span {
@@ -87,4 +88,25 @@ form input[type=text] {
     color: #fff;
     background-color: #0090da;
 }
+
+.container {
+    background-color: gray;
+    margin: 10px 0 10px 0;
+    padding: 3%
+}
+
+.username {
+    float: left
+}
+
+.time {
+    font-size: 13px;
+    float: right;
+}
+
+.message {
+    clear: both;
+    margin-top: 25px;
+}
+
 
